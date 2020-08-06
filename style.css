@@ -13,7 +13,7 @@ h1 {
 
 p {
     line-height: 1.6em;
-    margin-bottom: 1.6em;
+    clear: both;
 }
 
 .container {
@@ -73,4 +73,11 @@ footer {
     padding: 1em 0;
     margin-top: 4rem;
     text-align: center;
+}
+
+#perfil img {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
