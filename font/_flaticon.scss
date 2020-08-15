@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 05/08/2020 03:05
+    Creation date: 12/08/2020 01:34
     */
 
     @font-face {
@@ -37,20 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-telefono:before { content: "\f100"; }
-.flaticon-whatsapp:before { content: "\f101"; }
+    .flaticon-whatsapp:before { content: "\f100"; }
+.flaticon-usuario:before { content: "\f101"; }
 .flaticon-email:before { content: "\f102"; }
-.flaticon-trabajos:before { content: "\f103"; }
-.flaticon-educacion:before { content: "\f104"; }
-.flaticon-herramientas:before { content: "\f105"; }
-.flaticon-usuario:before { content: "\f106"; }
-.flaticon-menu:before { content: "\f107"; }
+.flaticon-directorio:before { content: "\f103"; }
+.flaticon-telefono:before { content: "\f104"; }
+.flaticon-empleos:before { content: "\f105"; }
+.flaticon-estudios:before { content: "\f106"; }
+.flaticon-herramientas:before { content: "\f107"; }
+.flaticon-compartir:before { content: "\f108"; }
+.flaticon-menu:before { content: "\f109"; }
     
-    $font-Flaticon-telefono: "\f100";
-    $font-Flaticon-whatsapp: "\f101";
+    $font-Flaticon-whatsapp: "\f100";
+    $font-Flaticon-usuario: "\f101";
     $font-Flaticon-email: "\f102";
-    $font-Flaticon-trabajos: "\f103";
-    $font-Flaticon-educacion: "\f104";
-    $font-Flaticon-herramientas: "\f105";
-    $font-Flaticon-usuario: "\f106";
-    $font-Flaticon-menu: "\f107";
+    $font-Flaticon-directorio: "\f103";
+    $font-Flaticon-telefono: "\f104";
+    $font-Flaticon-empleos: "\f105";
+    $font-Flaticon-estudios: "\f106";
+    $font-Flaticon-herramientas: "\f107";
+    $font-Flaticon-compartir: "\f108";
+    $font-Flaticon-menu: "\f109";

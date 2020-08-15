@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+.container {
+    margin: 0 auto;
+    max-width: 670px;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+h2 {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+p {
+    clear: both;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* ENCABEZADO ---------------------*/
+header {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+header h1 {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 26px;
+}
+header a {
+    color: #fff;
+    display: block;
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+    transition: all 0.4s linear;
+}
+header a:hover {
+    background-color: #4a4a4a;
+}
+header nav{
+    display: flex;
+}
+
+/* BOTON MENU ---------------------*/
+#chkMenu{
+    display: none;
+}
+#btnMenu{
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    text-decoration: none;
+    transition: all 0.4s linear;
+    min-width: 80px;
+    width: 100%;
+}
+#btnMenu:hover{
+    cursor: pointer;
+    background-color: #4a4a4a;
+}
+#btnMenu h1{
+    padding-left: 8px;
+    display: inline-block;
+    content: "Rafael Torres";
+    font-family: cursive;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    width: 0px;
+    padding-bottom: 0px;
+}
+#chkMenu:checked ~ ul {
+    display: block;
+}
+/* OPCIONES MENU ------------------*/
+nav ul {
+    display: none;
+    position: fixed;
+    top:45px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+nav ul li {
+    background-color: #333;
+}
+nav ul [class^="flaticon-"]:after,
+nav ul [class*=" flaticon-"]:after {
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-style: normal;
+}
+nav ul .flaticon-usuario::after { content: "Perfil"; }
+nav ul .flaticon-empleos::after { content: "Experiencia Laboral"; }
+nav ul .flaticon-estudios::after { content: "Estudios"; }
+nav ul .flaticon-herramientas::after { content: "Herramientas"; }
+
+/* CONTENIDO ----------------------*/
+section {
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.imgperfil {
+    background-image: url(../img/foto.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    margin: 0px auto 15px auto;
+}
+.infoperfil {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.infoperfil h2{
+    font-weight: normal;
+}
+
+section [class^="flaticon-"]::before,
+section [class*=" flaticon-"]::before {
+    padding-right: 5px;
+}
+
+/* PIE DE PAGINA ------------------*/
+footer {
+    background-color: #999;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+footer a {
+    color: #333;
+    font-style: italic;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+}
+footer span {
+    display: inline-block;
+}
+
+/* INTERMEDIA ---------------------*/
+@media only screen and (min-width: 570px) {
+
+    .imgperfil {
+        float: left;
+        margin-right: 20px;
+    }
+    .infoperfil {
+        float: left;
+        width: 275px;
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+    /* BOTON MENU ---------------------*/
+    #btnMenu{
+        display: none;
+    }
+    /* OPCIONES MENU ------------------*/
+    nav ul {
+        display: flex;
+        position: unset;
+        list-style: none;
+        width: 100%;
+    }
+    nav ul li:first-child {
+        width: 100%;
+    }
+    nav ul .flaticon-usuario::after { content: "Rafael Torres"; }
+    nav ul .flaticon-empleos::after, nav ul .flaticon-estudios::after, nav ul .flaticon-herramientas::after {
+        padding-left: 0px;
+        content: "";
+    }
+}
+
+/* GRANDE -------------------------*/
+@media only screen and (min-width: 680px) {
+
+
+ }   
+ 

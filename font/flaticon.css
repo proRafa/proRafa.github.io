@@ -1,7 +1,7 @@
-	/*
-  	Flaticon icon font: Flaticon
-  	Creation date: 05/08/2020 03:05
-  	*/
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 11/08/2020 23:31
+*/
 
 @font-face {
   font-family: "Flaticon";
@@ -22,32 +22,19 @@
   }
 }
 
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before{
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {   
   font-family: Flaticon;
   font-size: 26px;
   font-style: normal;
-
-}
-[class^="flaticon-"], [class*=" flaticon-"]{
-  color: #fff;
 }
 
-.flaticon-telefono:before { content: "\f100"; }
-.flaticon-whatsapp:before { content: "\f101"; }
+.flaticon-whatsapp:before { content: "\f100"; }
+.flaticon-usuario:before { content: "\f101"; }
 .flaticon-email:before { content: "\f102"; }
-.flaticon-trabajos:before { content: "\f103"; }
-.flaticon-educacion:before { content: "\f104"; }
-.flaticon-herramientas:before { content: "\f105"; }
-.flaticon-usuario:before { content: "\f106"; }
-.flaticon-menu:before { content: "\f107"; }
-
-
-.flaticon-usuario::before {
-  float: left;
-}
-
-.flaticon-usuario::after {
-  display: block;
-  content: "Rafael Torres";
-  margin-left: 36px;
-}
+.flaticon-directorio:before { content: "\f103"; }
+.flaticon-telefono:before { content: "\f104"; }
+.flaticon-empleos:before { content: "\f105"; }
+.flaticon-estudios:before { content: "\f106"; }
+.flaticon-herramientas:before { content: "\f107"; }
+.flaticon-compartir:before { content: "\f108"; }
+.flaticon-menu:before { content: "\f109"; }
