@@ -1,3 +1,6 @@
+@import url(/css/flaticon/flaticon.css);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,400;1,500;1,700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -32,12 +35,6 @@ header {
     left: 0;
     top: 0;
     right: 0;
-}
-header h1 {
-    font-family: cursive;
-    font-size: 24px;
-    font-weight: normal;
-    line-height: 26px;
 }
 header a {
     color: #fff;
@@ -74,10 +71,12 @@ header nav{
     padding-left: 8px;
     display: inline-block;
     content: "Rafael Torres";
-    font-family: cursive;
-    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 14px;
     letter-spacing: 1px;
-    line-height: 13px;
+    line-height: 14px;
+    font-weight: 500;
+    font-style: italic;
     width: 0px;
     padding-bottom: 0px;
 }
@@ -101,8 +100,9 @@ nav ul [class*=" flaticon-"]:after {
     padding-left: 10px;
     font-size: 18px;
     letter-spacing: 1px;
-    font-family: cursive;
-    font-style: normal;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 400;
 }
 nav ul .flaticon-usuario::after { content: "Perfil"; }
 nav ul .flaticon-empleos::after { content: "Experiencia Laboral"; }
