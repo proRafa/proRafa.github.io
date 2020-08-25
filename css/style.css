@@ -15,6 +15,7 @@
 h1 {
     padding-bottom: 1rem;
     font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
     font-size: 1.5rem;
     line-height: 1.7rem;
 }
@@ -75,7 +76,7 @@ header nav{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
-    line-height: 14px;
+    line-height: 13px;
     font-weight: 500;
     font-style: italic;
     width: 0px;
@@ -139,6 +140,15 @@ section {
 section [class^="flaticon-"]::before,
 section [class*=" flaticon-"]::before {
     padding-right: 5px;
+}
+section ul {
+    list-style: none;
+}
+section li {
+    padding: 0.3rem 0;
+}
+section i {
+    text-decoration: underline;
 }
 
 /* PIE DE PAGINA ------------------*/
